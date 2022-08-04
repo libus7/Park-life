@@ -1,0 +1,25 @@
+uuid: 18157b35-2b87-4062-841e-5775cb5aa516
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+_core:
+  default_config_hash: 7EA9OiBOT_LIAvYf-qtAv77KjubLFa3LIcQzcYXbGrk
+id: bootstrap_barrio_subtheme_branding
+theme: bootstrap_barrio_subtheme
+region: header
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Westbridge Landing'
+  label_display: visible
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

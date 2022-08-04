@@ -1,0 +1,8 @@
+uuid: 702a92c3-46b0-4572-9816-0831addf17c0
+langcode: en
+status: true
+dependencies: {  }
+id: logo
+label: Logo
+revision: 0
+description: 'Logo for the homepage'

@@ -1,0 +1,20 @@
+uuid: d8061d49-d8a6-46b2-a3cf-1021d40d783e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: KuyA4NHPXcmKAjRtwa0vQc2ZcyrUJy6IlS2TAyMNRbc
+name: 'Landing Page'
+type: page
+description: 'Use <em>landing pages</em> for your static content, such as an ''About us'' page.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

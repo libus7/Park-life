@@ -1,0 +1,20 @@
+uuid: 46873004-184a-4da5-a7ba-982568d4e3dc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bootstrap_barrio_subtheme
+_core:
+  default_config_hash: ng-kM_yCPtkiKiKv3JlE2F2fzheJj1LWMEEMf4VfQ7k
+id: bootstrap_barrio_subtheme_local_actions
+theme: bootstrap_barrio_subtheme
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

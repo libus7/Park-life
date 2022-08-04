@@ -1,0 +1,25 @@
+uuid: 4e4ec081-52f2-41cd-9235-9fe3eee837b3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:logo:65651530-6085-4e77-b777-79b7ee8455de'
+  module:
+    - block_content
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_logo_home
+theme: bootstrap_barrio
+region: header
+weight: -7
+provider: null
+plugin: 'block_content:65651530-6085-4e77-b777-79b7ee8455de'
+settings:
+  id: 'block_content:65651530-6085-4e77-b777-79b7ee8455de'
+  label: 'Westbridge Landing'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

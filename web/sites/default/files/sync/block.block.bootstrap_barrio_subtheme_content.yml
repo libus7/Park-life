@@ -1,0 +1,22 @@
+uuid: 131fe94b-5a9b-4366-80b0-ecb8f6e7cf37
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+_core:
+  default_config_hash: Fuvo_V2eVvIP87aTfCPvxZp6d5ggdIwcWaPSVVRKsa8
+id: bootstrap_barrio_subtheme_content
+theme: bootstrap_barrio_subtheme
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

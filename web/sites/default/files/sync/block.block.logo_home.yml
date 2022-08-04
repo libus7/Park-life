@@ -1,0 +1,25 @@
+uuid: afcc0403-7fca-46e6-9c88-c853e1c9c817
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:logo:65651530-6085-4e77-b777-79b7ee8455de'
+  module:
+    - block_content
+  theme:
+    - bootstrap_business
+id: logo_home
+theme: bootstrap_business
+region: header
+weight: -7
+provider: null
+plugin: 'block_content:65651530-6085-4e77-b777-79b7ee8455de'
+settings:
+  id: 'block_content:65651530-6085-4e77-b777-79b7ee8455de'
+  label: 'Westbridge Landing'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
